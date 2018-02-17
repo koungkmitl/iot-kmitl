@@ -1,11 +1,11 @@
 const config = {
-    apiKey: "<KEY>",
-    authDomain: "<KEY>",
-    databaseURL: "<KEY>",
-    projectId: "<KEY>",
-    storageBucket: "<KEY>",
-    messagingSenderId: "<KEY>"
-};
+    apiKey: "AIzaSyDdhXBS8EcwaDJwcNovKZjSbBOMXiVN-KQ",
+    authDomain: "iot-kmitl.firebaseapp.com",
+    databaseURL: "https://iot-kmitl.firebaseio.com",
+    projectId: "iot-kmitl",
+    storageBucket: "iot-kmitl.appspot.com",
+    messagingSenderId: "317846985964"
+  };
 firebase.initializeApp(config);
 
 const analogLed = firebase.database().ref('analog');
