@@ -31,7 +31,7 @@ function ratioBtnOff() {
 
 const chart = Highcharts.chart('container', {
     title: {
-        text: 'Level LED'
+        text: 'Level Analog'
     },
     xAxis: {
         tickInterval: 1
